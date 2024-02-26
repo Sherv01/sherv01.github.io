@@ -97,18 +97,16 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'University of Toronto',
+      position: 'Mechanics Bridge Project | Software Engineer',
+      from: 'November 2023',
+      to: 'December 2024',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'University of Toronto',
+      position: 'Hackathon Project | Embedded Systems Engineer',
+      from: 'Feburary 17, 2024',
+      to: 'February 18, 2024',
     },
   ],
   certifications: [
@@ -119,8 +117,14 @@ const CONFIG = {
     {
       institution: 'University of Toronto',
       degree: 'Bachelor of Applied Science, Engineering Science',
-      from: '2023',
+      from: 'September 2023',
       to: 'Present',
+    },
+    {
+      institution: 'St. Mary Catholic Academy',
+      degree: 'International Baccalaureate Diploma',
+      from: 'September 2019',
+      to: 'June 2023'
     },
   ],
   // Display articles from your medium or dev account. (Optional)
