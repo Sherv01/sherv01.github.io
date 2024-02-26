@@ -111,6 +111,9 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'International Baccalaureate Diploma, 4.0 GPA',
+      body: 'Achieved Level 7 (the highest available grade) in every subject and graduated with more than 10 awards recognizing my academic achievements and community involvement',
+      year: 'June 2023'
     },
   ],
   educations: [
