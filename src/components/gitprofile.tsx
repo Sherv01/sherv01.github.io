@@ -223,10 +223,19 @@ const GitProfile = ({ config }: { config: Config }) => {
                         skills={sanitizedConfig.skills}
                       />
                     )}
-                    {sanitizedConfig.certifications.length !== 0 && (
-                      <CertificationCard
+                  </div>
+                </div>
+                <div className="col-span-1">
+                  <div className="grid grid-cols-1 gap-6">
+                    {sanitizedConfig.projects.external.projects.length !==
+                      0 && (
+                      <ExternalProjectCard
                         loading={loading}
-                        certifications={sanitizedConfig.certifications}
+                        header={sanitizedConfig.projects.external.header}
+                        externalProjects={
+                          sanitizedConfig.projects.external.projects
+                        }
+                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
                   </div>
@@ -245,24 +254,14 @@ const GitProfile = ({ config }: { config: Config }) => {
                         educations={sanitizedConfig.educations}
                       />
                     )}
-                  </div>
-                </div>
-                <div className="col-span-1">
-                  <div className="grid grid-cols-1 gap-6">
-                    {sanitizedConfig.projects.external.projects.length !==
-                      0 && (
-                      <ExternalProjectCard
+                    {sanitizedConfig.certifications.length !== 0 && (
+                      <CertificationCard
                         loading={loading}
-                        header={sanitizedConfig.projects.external.header}
-                        externalProjects={
-                          sanitizedConfig.projects.external.projects
-                        }
-                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
+                        certifications={sanitizedConfig.certifications}
                       />
                     )}
                   </div>
-                </div>
-              </div>
+                </div> 
               <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 rounded-box">
                 <div className="lg:col-span-3 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
