@@ -225,7 +225,7 @@ const GitProfile = ({ config }: { config: Config }) => {
                     )}
                   </div>
                 </div>
-                <div className="col-span-1">
+                <div>
                   <div className="grid grid-cols-1 gap-6">
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
