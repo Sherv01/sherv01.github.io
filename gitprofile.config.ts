@@ -35,7 +35,7 @@ const CONFIG = {
         {
           title: 'EcoSort: Smart Waste Assistant',
           description:
-            'Voice activated smart trash bin prototype that senses when a user is near, listens for the item being thrown out, and opens the corresponding bin. Developed and built in under 24 hours.',
+            'Voice activated smart trash bin prototype that senses when a user is near, listens for the item to be thrown out, and opens the corresponding bin. Developed and built in under 24 hours.',
           imageUrl:
             'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/778/200/datas/gallery.jpg',
           link: 'https://devpost.com/software/echosort-smartwaste-assistant?ref_content=my-projects-tab&ref_feature=my_projects',
