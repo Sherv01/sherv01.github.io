@@ -108,6 +108,12 @@ const CONFIG = {
       from: 'Feburary 17, 2024',
       to: 'February 18, 2024',
     },
+    {
+      company: 'St. Mary Catholic Academy',
+      position: 'Independent Researcher in Microbiology and Analytical Chemistry',
+      from: 'September 2022',
+      to: 'May 2023',
+    },
   ],
   certifications: [
     {
