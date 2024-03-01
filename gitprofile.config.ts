@@ -41,6 +41,12 @@ const CONFIG = {
           link: 'https://devpost.com/software/echosort-smartwaste-assistant?ref_content=my-projects-tab&ref_feature=my_projects',
         },
         {
+          title: 'Individual Research Projects (IB Internal Assessments)',
+          description: 'Carried out meticulous experiments in a lab dealing with live fungus as well as techniques in analytical chemistry. Documented my findings in various research papers.',
+          imageUrl: 'https://www.agro-chemistry.com/wp-content/uploads/2021/09/Biobaced-chemistry-molecules-chemie-molekulen-768x512.jpg',
+          link: 'https://drive.google.com/drive/folders/1P65C3SKXu5wKiGMWr33C7Q3AbwZHRD0i',
+        },
+        {
           title: 'Coming Soon',
           description:
             'I am working on more projects!',
