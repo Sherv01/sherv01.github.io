@@ -104,6 +104,12 @@ const CONFIG = {
   experiences: [
     {
       company: 'University of Toronto',
+      position: 'Programmer in Python and C',
+      from: 'September 2023',
+      to: 'Present',
+    },
+    {
+      company: 'University of Toronto',
       position: 'Mechanics Bridge Project | Software Engineer',
       from: 'November 2023',
       to: 'December 2024',
