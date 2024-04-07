@@ -82,7 +82,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1oeo5Fy-HLxuk36hRxWodkFxgDrpTD3nN/view', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1piK6vM1CSw1n4U7DSE4GpX9iziDBx0MY/view', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
@@ -104,7 +104,7 @@ const CONFIG = {
   experiences: [
     {
       company: 'University of Toronto',
-      position: 'Programmer in Python and C',
+      position: 'Programmer and Web Developer',
       from: 'September 2023',
       to: 'Present',
     },
