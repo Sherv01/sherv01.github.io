@@ -43,20 +43,20 @@ const CONFIG = {
         {
           title: 'Mushroom Mister',
           description: 'Developed an automated mushroom misting device for Lion\'s Mane Mushrooms using an Arduino Uno. Built with a team of 5 skilled engineers.',
-          imageUrl: 'Non-Template-Files/Mushroom Mister Image.png',
-          link: 'Non-Template-Files/The Mushroom Mister One Pager FINAL.pdf',
+          imageUrl: '/Non-Template-Files/Mushroom Mister Image.png',
+          link: '/Non-Template-Files/The Mushroom Mister One Pager FINAL.pdf',
         }, 
         {
           title: 'Gamify: The Web Game (work in progress)',
           description: 'Expanded on my very first coding project by converting it to JavaScript and adapting it to a web game using HTML and CSS.',
-          imageUrl: 'https://th.bing.com/th/id/R.eba0c7b6b68a681cff1e60888c6899b7?rik=0QZ%2b0bHsqiXL8g&riu=http%3a%2f%2fprogressivesoccertraining.com%2fwp-content%2fuploads%2f2021%2f01%2fhow-to-run-faster.jpg&ehk=0Q9SqAGOwn0pn%2bWq5EhewOcoUxaXA%2biXDi1FbfY71FM%3d&risl=&pid=ImgRaw&r=0',
-          link: 'Non-Template-Files/Gamify/gamify.html',
+          imageUrl: 'https://www.progressivesoccertraining.com/wp-content/uploads/2021/01/how-to-run-faster.jpg',
+          link: '/Non-Template-Files/Gamify/gamify.html',
         }, 
         {
           title: 'Engineering Handbook',
           description: '30 Page handbook written entirely in LaTeX outlining my engineering design experiences in my first year of university.',
-          imageUrl: 'https://th.bing.com/th/id/R.5625e9b1a4f6a11029899ea7aa43ccaf?rik=06iDw7yzcHs5Nw&riu=http%3a%2f%2fuiconstock.com%2fwp-content%2fuploads%2f2014%2f11%2fengineering-pictures-81.jpg&ehk=yoSjVRDI%2fsouPBu%2fWYfc%2f6OtSwqMWDzSbbATSCJoDM4%3d&risl=1&pid=ImgRaw&r=0',
-          link: 'Non-Template-Files/Engineering Handbook.pdf',
+          imageUrl: 'https://uiconstock.com/wp-content/uploads/2014/11/engineering-blueprint.jpg',
+          link: '/Non-Template-Files/Engineering Handbook.pdf',
         },
         {
           title: 'Individual Research Projects (IB Internal Assessments)',
