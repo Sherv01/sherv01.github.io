@@ -41,6 +41,24 @@ const CONFIG = {
           link: 'https://devpost.com/software/echosort-smartwaste-assistant?ref_content=my-projects-tab&ref_feature=my_projects',
         },
         {
+          title: 'Mushroom Mister',
+          description: 'Developed an automated mushroom misting device for Lion\'s Mane Mushrooms using an Arduino Uno. Built with a team of 5 skilled engineers.',
+          imageUrl: 'Non-Template-Files/Mushroom Mister Image.png',
+          link: 'Non-Template-Files/The Mushroom Mister One Pager FINAL.pdf',
+        }, 
+        {
+          title: 'Gamify: The Web Game (work in progress)',
+          description: 'Expanded on my very first coding project by converting it to JavaScript and adapting it to a web game using HTML and CSS.',
+          imageUrl: 'https://th.bing.com/th/id/R.eba0c7b6b68a681cff1e60888c6899b7?rik=0QZ%2b0bHsqiXL8g&riu=http%3a%2f%2fprogressivesoccertraining.com%2fwp-content%2fuploads%2f2021%2f01%2fhow-to-run-faster.jpg&ehk=0Q9SqAGOwn0pn%2bWq5EhewOcoUxaXA%2biXDi1FbfY71FM%3d&risl=&pid=ImgRaw&r=0',
+          link: 'Non-Template-Files/Gamify/gamify.html',
+        }, 
+        {
+          title: 'Engineering Handbook',
+          description: '30 Page handbook written entirely in LaTeX outlining my engineering design experiences in my first year of university.',
+          imageUrl: 'https://th.bing.com/th/id/R.5625e9b1a4f6a11029899ea7aa43ccaf?rik=06iDw7yzcHs5Nw&riu=http%3a%2f%2fuiconstock.com%2fwp-content%2fuploads%2f2014%2f11%2fengineering-pictures-81.jpg&ehk=yoSjVRDI%2fsouPBu%2fWYfc%2f6OtSwqMWDzSbbATSCJoDM4%3d&risl=1&pid=ImgRaw&r=0',
+          link: 'Non-Template-Files/Engineering Handbook.pdf',
+        },
+        {
           title: 'Individual Research Projects (IB Internal Assessments)',
           description: 'Carried out meticulous experiments in a lab dealing with live fungus as well as techniques in analytical chemistry. Documented my findings in various research papers.',
           imageUrl: 'https://www.agro-chemistry.com/wp-content/uploads/2021/09/Biobaced-chemistry-molecules-chemie-molekulen-768x512.jpg',
@@ -82,7 +100,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1piK6vM1CSw1n4U7DSE4GpX9iziDBx0MY/view', // Empty fileUrl will hide the `Download Resume` button.
+      'Non-Template-Files/Shervin_Darmanki_Farahani_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
