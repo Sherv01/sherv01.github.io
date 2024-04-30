@@ -43,20 +43,20 @@ const CONFIG = {
         {
           title: 'Mushroom Mister',
           description: 'Developed an automated mushroom misting device for Lion\'s Mane Mushrooms using an Arduino Uno. Built with a team of 5 skilled engineers.',
-          imageUrl: '/Non-Template-Files/Mushroom Mister Image.png',
-          link: '/Non-Template-Files/The Mushroom Mister One Pager FINAL.pdf',
+          imageUrl: 'https://raw.githubusercontent.com/sherv01/sherv01.github.io/main/Non-Template-Files/Mushroom%20Mister%20Image.png',
+          link: 'https://drive.google.com/file/d/1bMV5jCVntKlalJKFBizreg99IxAX2MGI/view',
         }, 
         {
           title: 'Gamify: The Web Game (work in progress)',
-          description: 'Expanded on my very first coding project by converting it to JavaScript and adapting it to a web game using HTML and CSS.',
+          description: 'Expanded on my very first coding project by converting it to JavaScript and adapting it to a web game using HTML and CSS. (Make sure to read the README)',
           imageUrl: 'https://www.progressivesoccertraining.com/wp-content/uploads/2021/01/how-to-run-faster.jpg',
-          link: '/Non-Template-Files/Gamify/gamify.html',
+          link: 'https://github.com/Sherv01/sherv01.github.io/tree/main/Non-Template-Files/Gamify',
         }, 
         {
           title: 'Engineering Handbook',
           description: '30 Page handbook written entirely in LaTeX outlining my engineering design experiences in my first year of university.',
           imageUrl: 'https://uiconstock.com/wp-content/uploads/2014/11/engineering-blueprint.jpg',
-          link: '/Non-Template-Files/Engineering Handbook.pdf',
+          link: 'https://drive.google.com/file/d/1xtIPOfZ6IoDMwFPEK0IDGClv1PJASTMj/view',
         },
         {
           title: 'Individual Research Projects (IB Internal Assessments)',
@@ -100,7 +100,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'Non-Template-Files/Shervin_Darmanki_Farahani_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://raw.githubusercontent.com/sherv01/sherv01.github.io/main/Non-Template-Files/Shervin_Darmanki_Farahani_Resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'C++',
