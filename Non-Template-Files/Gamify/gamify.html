@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gamify</title>
+  <script src="https://kit.fontawesome.com/b020010741.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="gamify.css">
+  </style>
+</head>
+<body>
+  <div class="animated-title">
+    <h1> Gamify </h1>
+  </div>
+  <header class="header">
+    <div class="counter">
+      <i class="fa-solid fa-heart"></i> Health: <label id="health">0</label>
+    </div>
+    <div class="counter">
+      <i class="fa-solid fa-face-smile"></i> Hedons: <label id="hedons">0</label>
+    </div>
+    <div class="counter">
+      <i class="fa-solid fa-clock"></i> Time: <label id="time">0</label> minutes
+    </div>
+  </header>
+  <div class="activities">
+    <h2>Activities</h2>
+    <button class="activity" id="running">Run</button>
+    <button class="activity" id="textbooks">Carry Textbooks</button>
+    <button class="activity" id="resting">Rest</button>
+    <label id="timePopupText">0</label>
+    <label id="timePopup"><i class="fa-solid fa-clock"></i></label>
+    <label id="hedonPopupText">0</label>
+    <label id="hedonPopup"><i class="fa-solid fa-face-smile"></i></label>
+    <label id="healthPopupText">0</label>
+    <label id="healthPopup"><i class="fa-solid fa-heart"></i></label>
+  </div>
+  </div>
+  <script src="gamify.js">
+  </script>
+</body>
+</html>

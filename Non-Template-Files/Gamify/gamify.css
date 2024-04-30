@@ -1,0 +1,150 @@
+    body {
+      font-family: "Luckiest Guy", cursive, sans-serif;
+      margin: 0;
+      font-weight: 100;
+      background-image: url("https://tse3.mm.bing.net/th/id/OIG4.DcKdcp08R.9bMtlU1FsE?pid=ImgGn");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center top;
+    }
+
+    .header {
+      padding: 20px;
+      border: 3px solid #000;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 75%;
+      border-width: 5px;
+      border-radius: 50px;
+    }
+
+    .counter {
+      margin: 0 10px;
+    }
+
+    .activities {
+      padding: 20px;
+      border: 3px solid #000;
+      margin-top: 20px;
+      margin-left: 20px;
+      margin-right: 75%;
+      border-width: 5px;
+      border-radius: 50px;
+    }
+
+    .activity {
+      padding: 10px;
+      border: 7px solid #0000001e;
+      border-radius: 0px;
+      transform: skewX(-15deg);
+      display: inline-block;
+      margin: 0 10px;
+      background-color: #ffd900;
+      font-family: "Luckiest Guy", cursive, sans-serif;
+    }
+
+    .activity:hover {
+      background-color: #ffd900;
+      border-style: outset;
+      cursor: pointer;
+    }
+
+    .activity:active {
+      border-style: inset;
+      background-color: #ffd900;
+    }
+
+    .animated-title {
+      position: absolute;
+      top: 50%;
+      left: 80%;
+      transform: translate(-50%, -50%);
+      font-size: 3em;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    #timePopupText {
+      position: absolute; /* Position relative to the button */
+      font-size: 2em; /* Adjust font size */
+      color: green; /* Green for positive increment */
+      opacity: 0; /* Initially transparent */
+      animation: popupAnimation; /* Animation for appearance */
+      display: none; /* Hide initially */
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      user-select: none;
+    }
+    #healthPopupText {
+      position: absolute; /* Position relative to the button */
+      font-size: 2em; /* Adjust font size */
+      color: green; /* Green for positive increment */
+      opacity: 0; /* Initially transparent */
+      animation: popupAnimation; /* Animation for appearance */
+      display: none; /* Hide initially */
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      user-select: none;
+    }
+    #hedonPopupText {
+      position: absolute; /* Position relative to the button */
+      font-size: 2em; /* Adjust font size */
+      color: green; /* Green for positive increment */
+      opacity: 0; /* Initially transparent */
+      animation: popupAnimation; /* Animation for appearance */
+      display: none; /* Hide initially */
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      user-select: none;
+    }
+    #timePopup {
+      position: relative; /* Position relative to the button */
+      right: 10%;
+      font-size: 2em; /* Adjust font size */
+      color: green; /* Green for positive increment */
+      opacity: 0; /* Initially transparent */
+      animation: popupAnimation; /* Animation for appearance */
+      display: none; /* Hide initially */
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      user-select: none;
+    }
+    #hedonPopup {
+      position: relative; /* Position relative to the button */
+      right: 10%;
+      font-size: 2em; /* Adjust font size */
+      color: green; /* Green for positive increment */
+      opacity: 0; /* Initially transparent */
+      animation: popupAnimation; /* Animation for appearance */
+      display: none; /* Hide initially */
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      user-select: none;
+    }
+    #healthPopup {
+      position: relative; /* Position relative to the button */
+      right: 10%;
+      font-size: 2em; /* Adjust font size */
+      color: green; /* Green for positive increment */
+      opacity: 0; /* Initially transparent */
+      animation: popupAnimation; /* Animation for appearance */
+      display: none; /* Hide initially */
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+      animation-timing-function: ease-in-out;
+      user-select: none;
+    }
+
+    @keyframes popupAnimation {
+      from { opacity: 1; transform: translateY(0); }
+      to { opacity: 0; transform: translateY(-20px); } /* Move up slightly */
+    }
