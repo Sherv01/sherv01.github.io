@@ -1,6 +1,6 @@
 # Gamify
 
-This is a web game developed using HTML, CSS, and JavaScript.
+This is a web game developed using HTML, CSS, and JavaScript. It is a web game adaptation of my very first coding project, Gamify. The original Python file with the refined code can be found in the coding portfolio repository on my GitHub.
 
 ## How to Run Locally
 
