@@ -29,6 +29,7 @@ import GithubProjectCard from './github-project-card';
 import ExternalProjectCard from './external-project-card';
 import BlogCard from './blog-card';
 import Footer from './footer';
+import PublicationCard from './publication-card';
 
 /**
  * Renders the GitProfile component.
@@ -223,35 +224,10 @@ const GitProfile = ({ config }: { config: Config }) => {
                         skills={sanitizedConfig.skills}
                       />
                     )}
-                  </div>
-                </div>
-                <div className="col-span-1">
-                  <div className="grid grid-cols-1 gap-6">
-                    {sanitizedConfig.projects.external.projects.length !==
-                      0 && (
-                      <ExternalProjectCard
-                        loading={loading}
-                        header={sanitizedConfig.projects.external.header}
-                        externalProjects={
-                          sanitizedConfig.projects.external.projects
-                        }
-                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
-                      />
-                    )}
-                  </div>
-                </div>
-                <div className="col-span-1">
-                  <div className="grid grid-cols-1 gap-6">
                     {sanitizedConfig.experiences.length !== 0 && (
                       <ExperienceCard
                         loading={loading}
                         experiences={sanitizedConfig.experiences}
-                      />
-                    )}
-                    {sanitizedConfig.educations.length !== 0 && (
-                      <EducationCard
-                        loading={loading}
-                        educations={sanitizedConfig.educations}
                       />
                     )}
                     {sanitizedConfig.certifications.length !== 0 && (
@@ -260,9 +236,15 @@ const GitProfile = ({ config }: { config: Config }) => {
                         certifications={sanitizedConfig.certifications}
                       />
                     )}
+                    {sanitizedConfig.educations.length !== 0 && (
+                      <EducationCard
+                        loading={loading}
+                        educations={sanitizedConfig.educations}
+                      />
+                    )}
                   </div>
                 </div>
-                <div className="lg:col-span-3 col-span-1">
+                <div className="lg:col-span-2 col-span-1">
                   <div className="grid grid-cols-1 gap-6">
                     {sanitizedConfig.projects.github.display && (
                       <GithubProjectCard
@@ -272,6 +254,23 @@ const GitProfile = ({ config }: { config: Config }) => {
                         loading={loading}
                         username={sanitizedConfig.github.username}
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
+                      />
+                    )}
+                    {sanitizedConfig.publications.length !== 0 && (
+                      <PublicationCard
+                        loading={loading}
+                        publications={sanitizedConfig.publications}
+                      />
+                    )}
+                    {sanitizedConfig.projects.external.projects.length !==
+                      0 && (
+                      <ExternalProjectCard
+                        loading={loading}
+                        header={sanitizedConfig.projects.external.header}
+                        externalProjects={
+                          sanitizedConfig.projects.external.projects
+                        }
+                        googleAnalyticId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
                     {sanitizedConfig.blog.display && (
