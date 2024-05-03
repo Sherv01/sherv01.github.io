@@ -255,12 +255,6 @@ return (
                         googleAnalyticsId={sanitizedConfig.googleAnalytics.id}
                       />
                     )}
-                    {sanitizedConfig.publications.length !== 0 && (
-                      <PublicationCard
-                        loading={loading}
-                        publications={sanitizedConfig.publications}
-                      />
-                    )}
                     {sanitizedConfig.projects.external.projects.length !==
                       0 && (
                       <ExternalProjectCard
