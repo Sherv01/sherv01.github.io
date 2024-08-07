@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'CodeGenius',
+          description:
+            'Web app akin to Genius (Lyrics Website) in the sense that it provides an AI-generated analysis on certain parts of code on mouse hover. Front and back end developed in under 36 hours.',
+          imageUrl:
+            'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/975/494/datas/gallery.jpg',
+          link: 'https://devpost.com/software/code-genius',
+        },
+        {
           title: 'EcoSort: Smart Waste Assistant',
           description:
             'Voice activated smart trash bin prototype that senses when a user is near, listens for the item to be thrown out, and opens the corresponding bin. Developed and built in under 24 hours.',
@@ -47,7 +55,7 @@ const CONFIG = {
           link: 'https://drive.google.com/file/d/1bMV5jCVntKlalJKFBizreg99IxAX2MGI/view',
         }, 
         {
-          title: 'Gamify: The Web Game (work in progress)',
+          title: 'Gamify: The Web Game',
           description: 'Expanded on my very first coding project by converting it to JavaScript and adapting it to a web game using HTML and CSS. (Make sure to read the README)',
           imageUrl: 'https://www.progressivesoccertraining.com/wp-content/uploads/2021/01/how-to-run-faster.jpg',
           link: 'https://github.com/Sherv01/sherv01.github.io/tree/main/Non-Template-Files/Gamify',
