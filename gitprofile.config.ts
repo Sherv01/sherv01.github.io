@@ -166,9 +166,15 @@ const CONFIG = {
   educations: [
     {
       institution: 'University of Toronto',
+      degree: 'Bachelor of Applied Science, Computer Engineering',
+      from: 'September 2024',
+      to: 'Present',
+    },
+    {
+      institution: 'University of Toronto',
       degree: 'Bachelor of Applied Science, Engineering Science',
       from: 'September 2023',
-      to: 'Present',
+      to: 'August 2024',
     },
     {
       institution: 'St. Mary Catholic Academy',
