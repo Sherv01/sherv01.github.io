@@ -41,6 +41,14 @@ const CONFIG = {
           link: 'https://devpost.com/software/code-genius',
         },
         {
+          title: 'EduBuddy',
+          description:
+            'Web app that creates customizable to-do lists by reading course syllabi and integrates a social feature to connect users based on hobbies or schedules. Built with a focus on student productivity.',
+          imageUrl:
+            'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/048/461/datas/original.png',
+          link: 'https://devpost.com/software/edubuddy-e5mkdb',
+        },
+        {
           title: 'EcoSort: Smart Waste Assistant',
           description:
             'Voice activated smart trash bin prototype that senses when a user is near, listens for the item to be thrown out, and opens the corresponding bin. Developed and built in under 24 hours.',
