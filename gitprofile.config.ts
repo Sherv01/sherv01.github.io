@@ -161,14 +161,14 @@ const CONFIG = {
     {
       company: 'Hack the 6ix',
       position: 'Hackathon Project | Front End Developer',
-      from: 'Feburary 17, 2024',
-      to: 'February 18, 2024',
+      from: 'August 2, 2024',
+      to: 'August 4, 2024',
     },
     {
       company: 'University of Ottawa',
       position: 'Hackathon Project | Front End Developer',
-      from: 'Feburary 17, 2024',
-      to: 'February 18, 2024',
+      from: 'September 27, 2024',
+      to: 'September 29, 2024',
     },
     {
       company: 'St. Mary Catholic Academy',
