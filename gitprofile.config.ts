@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'BiasBuster (Work in Progress)',
+          description:
+            'Educates the newest generation on global issues by analyzing and summarizing biases from left- and right-leaning news outlets, presenting engaging, accessible content in Gen Alpha slang to promote political literacy and diverse perspectives.',
+          imageUrl:
+            'https://cdn.dorahacks.io/static/files/1947e4f62f96a8aa068140c45caa7860.png@128h.webp',
+          link: 'https://dorahacks.io/buidl/21745',
+        },
+        {
           title: 'CodeGenius',
           description:
             'Web app akin to Genius (Lyrics Website) in the sense that it provides an AI-generated analysis on certain parts of code on mouse hover. Front and back end developed in under 36 hours.',
