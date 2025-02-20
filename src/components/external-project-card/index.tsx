@@ -18,7 +18,7 @@ const ExternalProjectCard = ({
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
       array.push(
-        <div className="card shadow-lg compact bg-base-100" key={index}>
+        <div className="card shadow-lg compact bg-base-100 transform transition-transform duration-300 ease-in-out" key={index}>
           <div className="p-8 h-full w-full">
             <div className="flex items-center flex-col">
               <div className="w-full">
@@ -69,7 +69,7 @@ const ExternalProjectCard = ({
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
       <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+        className="card shadow-lg compact bg-base-100 cursor-pointer transform transition-transform duration-300 ease-in-out hover:-translate-y-1 hover:shadow-xl"
         key={index}
         href={item.link}
         onClick={(e) => {
