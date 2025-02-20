@@ -33,7 +33,23 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'BiasBuster (Work in Progress)',
+          title: 'CropCart',
+          description:
+            'A smart car that identifies crops and delivers real-time soil moisture and humidity data.',
+          imageUrl:
+            'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/275/565/datas/gallery.jpg',
+          link: 'https://devpost.com/software/cropcart-hcv3yb',
+        },
+        {
+          title: 'AeroCare',
+          description:
+            'Drone attachment that delivers care packages to designated landing zones using computer vision and Arduino',
+          imageUrl:
+            'https://www.irisonboard.com/wp-content/uploads/2022/01/Ambulance-drone-1.jpg',
+          link: 'https://devpost.com/software/aerocare',
+        },
+        {
+          title: 'BiasBuster',
           description:
             'Educates the newest generation on global issues by analyzing and summarizing biases from left- and right-leaning news outlets, presenting engaging, accessible content in Gen Alpha slang to promote political literacy and diverse perspectives.',
           imageUrl:
