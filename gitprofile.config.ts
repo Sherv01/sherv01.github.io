@@ -33,6 +33,14 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'TripoMemories',
+          description:
+            'Turn any image into a 3D model, or make an AI generated 3D model from a prompt.',
+          imageUrl:
+            'https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/003/332/245/datas/gallery.jpg',
+          link: 'https://devpost.com/software/3dreamify',
+        },
+        {
           title: 'CropCart',
           description:
             'A smart car that identifies crops and delivers real-time soil moisture and humidity data.',
