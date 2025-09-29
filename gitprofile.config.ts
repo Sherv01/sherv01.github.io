@@ -317,6 +317,7 @@ const CONFIG = {
   certifications: [
     {
 
+    }
   ],
   educations: [
     {
