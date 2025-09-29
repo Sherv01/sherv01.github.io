@@ -217,6 +217,12 @@ return (
                       github={sanitizedConfig.github}
                       social={sanitizedConfig.social}
                     />
+                    {sanitizedConfig.educations.length !== 0 && (
+                      <EducationCard
+                        loading={loading}
+                        educations={sanitizedConfig.educations}
+                      />
+                    )}
                     {sanitizedConfig.skills.length !== 0 && (
                       <SkillCard
                         loading={loading}
@@ -258,12 +264,6 @@ return (
                           sanitizedConfig.projects.external.projects
                         }
                         googleAnalyticId={sanitizedConfig.googleAnalytics.id}
-                      />
-                    )}
-                    {sanitizedConfig.educations.length !== 0 && (
-                      <EducationCard
-                        loading={loading}
-                        educations={sanitizedConfig.educations}
                       />
                     )}
                     {sanitizedConfig.blog.display && (
