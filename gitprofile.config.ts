@@ -210,7 +210,7 @@ const CONFIG = {
     'CHIP-8 Assembly',
   ],
   experiences: [
-    {
+{
   company: 'University of Toronto Web Development Club',
   position: 'Full Stack Developer',
   from: 'October 2024',
@@ -223,6 +223,18 @@ const CONFIG = {
   to: 'Present',
 },
 {
+  company: 'University of Toronto',
+  position: 'CHIP-8 Emulator Project',
+  from: 'September 2025',
+  to: 'October 2025',
+},
+{
+  company: 'University of Toronto',
+  position: 'Cover Letter Input Chrome Extension',
+  from: 'May 2025',
+  to: 'September 2025',
+},
+{
   company: 'Hack the 6ix',
   position: 'Front-End Developer',
   from: 'July 2025',
@@ -230,51 +242,9 @@ const CONFIG = {
 },
 {
   company: 'University of Toronto',
-  position: 'Programmer and Web Developer',
-  from: 'September 2023',
-  to: 'Present',
-},
-{
-  company: 'University of Ottawa',
-  position: 'Hack the Hill Project | Front-End Developer',
-  from: 'September 27, 2024',
-  to: 'September 29, 2024',
-},
-{
-  company: 'Hack the 6ix',
-  position: 'Hack the 6ix Project | Front-End Developer',
-  from: 'August 2, 2024',
-  to: 'August 4, 2024',
-},
-{
-  company: 'University of Toronto',
-  position: 'Make U of T Project | Embedded Systems Engineer',
-  from: 'February 17, 2024',
-  to: 'February 18, 2024',
-},
-{
-  company: 'University of Toronto',
-  position: 'CHIP-8 Emulator Project | C++, WxWidgets, OpenGL, SDL',
-  from: 'September 2025',
-  to: 'Present',
-},
-{
-  company: 'University of Toronto',
-  position: 'OpenStreetMap Mapper Project | C++, CSS, Git',
+  position: 'OpenStreetMap Mapper Project',
   from: 'January 2025',
   to: 'May 2025',
-},
-{
-  company: 'University of Toronto',
-  position: 'Cover Letter Input Chrome Extension | JavaScript, Node.js, HTML, CSS',
-  from: 'May 2025',
-  to: 'Present',
-},
-{
-  company: 'University of Toronto',
-  position: 'Systems Simulation Projects | C++',
-  from: 'September 2024',
-  to: 'December 2024',
 },
 {
   company: 'GenAI Genesis Hackathon',
@@ -295,14 +265,32 @@ const CONFIG = {
   to: 'January 2025',
 },
 {
-  company: 'Hack the 6ix Hackathon',
-  position: 'Front-End Developer',
-  from: 'August 2024',
-  to: 'August 2024',
+  company: 'University of Toronto',
+  position: 'Systems Simulation Projects',
+  from: 'September 2024',
+  to: 'December 2024',
+},
+{
+  company: 'University of Ottawa',
+  position: 'Hack the Hill Project | Front-End Developer',
+  from: 'September 27, 2024',
+  to: 'September 29, 2024',
+},
+{
+  company: 'Hack the 6ix',
+  position: 'Hack the 6ix Project | Front-End Developer',
+  from: 'August 2, 2024',
+  to: 'August 4, 2024',
+},
+{
+  company: 'Make U of T Project | University of Toronto',
+  position: 'Embedded Systems Engineer',
+  from: 'February 17, 2024',
+  to: 'February 18, 2024',
 },
 {
   company: 'University of Toronto',
-  position: 'Mechanics Bridge Project | Software Engineer',
+  position: 'Mechanics Bridge Project, Software Engineer',
   from: 'November 2023',
   to: 'December 2023',
 },
@@ -312,7 +300,6 @@ const CONFIG = {
   from: 'September 2022',
   to: 'May 2023',
 },
-
   ],
   certifications: [
     {
