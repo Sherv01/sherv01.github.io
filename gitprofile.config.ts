@@ -33,6 +33,30 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
+          title: 'CHIP-8 Emulator',
+          description:
+            'Complete CHIP-8 Emulator with retro themed GUI',
+          imageUrl:
+            'https://dashboard.snapcraft.io/site_media/appmedia/2020/03/application-icon.png',
+          link: 'https://github.com/Sherv01/chip-8-emulator',
+        },
+        {
+          title: 'CoverLetterInput',
+          description:
+            'Write cover letters directly in the browser whenever uploading a PDF is required',
+          imageUrl:
+            'https://images.emojiterra.com/google/noto-emoji/unicode-16.0/color/1024px/1f4cb.png',
+          link: 'https://github.com/Sherv01/CoverLetterInput',
+        },
+        {
+          title: 'Fortnite, We Need to Talk',
+          description:
+            'Fortnite clip analysis tool themed to speak like SypherPK',
+          imageUrl:
+            'https://i.ytimg.com/vi/RtLirPXfLtk/maxresdefault.jpg',
+          link: 'https://github.com/Sherv01/fortnite-we-need-to-talk',
+        },
+        {
           title: 'TripoMemories',
           description:
             'Turn any image into a 3D model, or make an AI generated 3D model from a prompt.',
