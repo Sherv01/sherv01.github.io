@@ -210,11 +210,23 @@ const CONFIG = {
     'CHIP-8 Assembly',
   ],
   experiences: [
+    {
+  company: 'AMD',
+  position: 'Software Engineer Intern',
+  from: 'May 2026',
+  to: 'Present',
+},
+    {
+  company: 'RBC',
+  position: 'Software Engineer / Cloud Infrastructure & DevOps Intern',
+  from: 'Jan 2026',
+  to: 'May 2026',
+},
 {
   company: 'University of Toronto Web Development Club',
   position: 'Full Stack Developer',
   from: 'October 2024',
-  to: 'Present',
+  to: 'December 2024',
 },
 {
   company: 'University of Toronto',
